@@ -97,7 +97,7 @@ const Contact = () => {
       {/* 📇 Contact Cards */}
       
 
-<div className="mt-32 grid  sm:grid-cols-1 md:grid-cols-2 gap-6 text-neutral-800 dark:text-neutral-200">
+<div className="mt-16 grid  sm:grid-cols-1 md:grid-cols-2 gap-2 text-neutral-800 dark:text-neutral-200">
 
   {/* Email - Static for small screens */}
   <div className="md:hidden relative p-4 rounded-lg shadow w-full overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
@@ -118,7 +118,7 @@ const Contact = () => {
   {/* Email - Pin on md+ */}
   <div className="hidden md:block">
     <PinContainer title="Email" href="mailto:anirudhsandilya363@gmail.com">
-      <div className="relative p-4 rounded-lg shadow w-[17rem] h-[12rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
+      <div className="relative p-4 rounded-lg shadow w-[10rem] h-[6rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
         <img
           src="/assets/gmail-logo.png"
           alt="email bg"
@@ -127,7 +127,7 @@ const Contact = () => {
         <h3 className="font-semibold text-lg mb-1 z-10">📧 Email</h3>
         <a
           href="mailto:anirudhsandilya363@gmail.com"
-          className="text-blue-600 dark:text-blue-400 underline z-10"
+          className="text-blue-600 dark:text-blue-400 break-words underline z-10"
         >
           anirudhsandilya363@gmail.com
         </a>
@@ -138,7 +138,7 @@ const Contact = () => {
 
   <div className="hidden md:block">
     <PinContainer title="LinkedIn" href="https://www.linkedin.com/in/anirudh363">
-    <div className="relative p-4 rounded-lg shadow w-[17rem] h-[12rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
+    <div className="relative p-4 rounded-lg shadow w-[10rem] h-[6rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
       <img
         src="/assets/linkedin-logo.png"
         alt="linkedin bg"
@@ -173,7 +173,7 @@ const Contact = () => {
 
   <div className="hidden md:block">
     <PinContainer title="GitHub" href="https://github.com/anirudh363">
-    <div className="relative p-4 rounded-lg shadow w-[17rem] h-[12rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
+    <div className="relative p-4 rounded-lg shadow w-[10rem] h-[6rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
       <img
         src="/assets/github-logo.jpg"
         alt="github bg"
@@ -208,7 +208,7 @@ const Contact = () => {
 
   <div className="hidden md:block">
     <PinContainer title="Blog" href="#">
-    <div className="relative p-4 rounded-lg shadow w-[17rem] h-[12rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
+    <div className="relative p-4 rounded-lg shadow w-[10rem] h-[6rem] overflow-hidden bg-white/60 dark:bg-neutral-900/60 backdrop-blur-md flex flex-col justify-center">
       <img
         src="/assets/blog-logo.png"
         alt="blog bg"
