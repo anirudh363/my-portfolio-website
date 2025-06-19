@@ -16,7 +16,7 @@ const Resume = () => {
       <DigitalDossier />
 
       {/* Button Row */}
-      <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
+      <div className="mt-4 flex flex-col sm:flex-row justify-center gap-4">
         {/* Download Resume */}
         <a
           href="/assets/resume/Anirudh_Resume.pdf"
