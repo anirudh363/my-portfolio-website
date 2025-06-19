@@ -167,7 +167,7 @@ const DigitalDossier = () => {
             </div>
 
             {/* Content */}
-            <div className="bg-neutral-900 border border-green-700 rounded-md p-4 min-h-[500px] flex justify-center text-center">
+            <div className="bg-neutral-900 border border-green-700 rounded-md p-4 min-h-[400px] flex justify-center text-center">
                 {renderTabContent()}
             </div>
         </div>
