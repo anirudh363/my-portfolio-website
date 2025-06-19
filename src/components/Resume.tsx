@@ -9,14 +9,14 @@ const Resume = () => {
         My Resume
       </h1>
       <p className="text-md mb-12 font-mono text-neutral-600 dark:text-neutral-400">
-        Access the official file or decode my dossier below.
+        Access and Download the official file, preview it through my dossier below.
       </p>
 
       {/* Digital Dossier Preview */}
       <DigitalDossier />
 
       {/* Button Row */}
-      <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
+      <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
         {/* Download Resume */}
         <a
           href="/assets/resume/Anirudh_Resume.pdf"
