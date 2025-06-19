@@ -145,13 +145,13 @@ const DigitalDossier = () => {
     };
 
     return (
-        <div className="bg-black text-green-600 border-1 border-red-900 rounded-lg p-6 max-w-4xl mx-auto shadow-lg font-mono tracking-wide">
+        <div className="bg-black text-green-600 border-1 border-red-900 rounded-lg p-4 max-w-4xl mx-auto shadow-lg font-mono tracking-wide">
             <h2 className="text-2xl text-center text-red-500 font-extrabold mb-4 uppercase">
                 Digital Dossier | STATUS: ACTIVE
             </h2>
 
             {/* Tabs */}
-            <div className="flex flex-wrap justify-center gap-4 mb-6">
+            <div className="flex flex-wrap justify-center gap-4 mb-4">
                 {tabs.map((tab) => (
                     <button
                         key={tab}
