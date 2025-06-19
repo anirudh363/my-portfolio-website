@@ -9,7 +9,7 @@ export function HeroScrollDemo() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white mb-6">
+            <h1 className="md:text-8xl text-4xl font-semibold text-black dark:text-white mb-6">
               Anirudh Manjunath Sandilya <br />
               <GlowDivider />
               <span className="text-xl sm:text-2xl md:text-5xl lg:text-[4.5rem] z-50 font-bold mt-1 leading-none">

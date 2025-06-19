@@ -1,4 +1,5 @@
 import { IconCloudDemo } from "./IconCloud";
+import ThreeDCardDemo from "./ThreeDCard";
 
 const About = () => {
   return (
@@ -37,7 +38,7 @@ const About = () => {
       </div>
 
       {/* Education Card */}
-      <div className="flex items-center gap-4 p-4 bg-white dark:bg-neutral-900 shadow-lg rounded-xl w-full max-w-md mx-auto mb-10 border dark:border-neutral-700">
+      {/* <div className="flex items-center gap-4 p-4 bg-white dark:bg-neutral-900 shadow-lg rounded-xl w-full max-w-md mx-auto mb-10 border dark:border-neutral-700">
         <img
         src="/assets/pu.png"
         alt="Presidency University Logo"
@@ -55,7 +56,8 @@ const About = () => {
             Class of 2025
           </p>
         </div>
-      </div>
+      </div> */}
+      <ThreeDCardDemo />
 
       {/* Skill Cloud Visual */}
       <div className="flex justify-center">
